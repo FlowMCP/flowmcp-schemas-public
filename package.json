@@ -1,0 +1,31 @@
+{
+    "name": "@flowmcp/schemas-public",
+    "version": "0.1.0",
+    "type": "module",
+    "description": "Curated, AI-ready schemas for public data sources — validated, tested, open source.",
+    "license": "MIT",
+    "engines": {
+        "node": "22.x"
+    },
+    "scripts": {
+        "test": "node --experimental-vm-modules node_modules/.bin/jest --forceExit",
+        "test:coverage": "node --experimental-vm-modules node_modules/.bin/jest --coverage --forceExit",
+        "test:coverage:src": "node --experimental-vm-modules node_modules/.bin/jest --coverage --coverageDirectory=coverage --forceExit"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/flowmcp/flowmcp-schemas-public"
+    },
+    "keywords": [
+        "flowmcp",
+        "mcp",
+        "schemas",
+        "open-data",
+        "ai",
+        "agents"
+    ],
+    "devDependencies": {
+        "@jest/globals": "^29.7.0",
+        "jest": "^29.7.0"
+    }
+}
