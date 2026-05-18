@@ -10,7 +10,9 @@
     "scripts": {
         "test": "node --experimental-vm-modules node_modules/.bin/jest --forceExit",
         "test:coverage": "node --experimental-vm-modules node_modules/.bin/jest --coverage --forceExit",
-        "test:coverage:src": "node --experimental-vm-modules node_modules/.bin/jest --coverage --coverageDirectory=coverage --forceExit"
+        "test:coverage:src": "node --experimental-vm-modules node_modules/.bin/jest --coverage --coverageDirectory=coverage --forceExit",
+        "mirror": "node scripts/mirror-from-private.mjs",
+        "mirror:dry": "node scripts/mirror-from-private.mjs --dry-run"
     },
     "repository": {
         "type": "git",
